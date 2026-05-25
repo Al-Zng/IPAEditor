@@ -1,0 +1,234 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		111111111111111111111111 /* IPAEditorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222222222222222222222222 /* IPAEditorApp.swift */; };
+		333333333333333333333333 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444444444444444444444444 /* ContentView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		555555555555555555555555 /* IPAEditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IPAEditor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		222222222222222222222222 /* IPAEditorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPAEditorApp.swift; sourceTree = "<group>"; };
+		444444444444444444444444 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		666666666666666666666666 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		777777777777777777777777 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		888888888888888888888888 = {
+			isa = PBXGroup;
+			children = (
+				999999999999999999999999 /* IPAEditor */,
+				000000000000000000000000 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		999999999999999999999999 /* IPAEditor */ = {
+			isa = PBXGroup;
+			children = (
+				222222222222222222222222 /* IPAEditorApp.swift */,
+				444444444444444444444444 /* ContentView.swift */,
+				666666666666666666666666 /* Info.plist */,
+			);
+			path = IPAEditor;
+			sourceTree = "<group>";
+		};
+		000000000000000000000000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				555555555555555555555555 /* IPAEditor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAAA1111AAAA1111AAAA1111 /* IPAEditor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBBB2222BBBB2222BBBB2222 /* Build configuration list for PBXNativeTarget "IPAEditor" */;
+			buildPhases = (
+				CCCC3333CCCC3333CCCC3333 /* Sources */,
+				777777777777777777777777 /* Frameworks */,
+				DDDD4444DDDD4444DDDD4444 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IPAEditor;
+			productName = IPAEditor;
+			productReference = 555555555555555555555555 /* IPAEditor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEEE5555EEEE5555EEEE5555 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					AAAA1111AAAA1111AAAA1111 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = FFFF6666FFFF6666FFFF6666 /* Build configuration list for PBXProject "IPAEditor" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 888888888888888888888888;
+			productRefGroup = 000000000000000000000000 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAAA1111AAAA1111AAAA1111 /* IPAEditor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDDD4444DDDD4444DDDD4444 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCCC3333CCCC3333CCCC3333 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				333333333333333333333333 /* ContentView.swift in Sources */,
+				111111111111111111111111 /* IPAEditorApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1A1A1A1A1A1A1A1A1A1A1A1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2B2B2B2B2B2B2B2B2B2B2B2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C3C3C3C3C3C3C3C3C3C3C3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				INFOPLIST_FILE = IPAEditor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.9r7n.IPAEditor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4D4D4D4D4D4D4D4D4D4D4D4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				INFOPLIST_FILE = IPAEditor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.9r7n.IPAEditor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFFF6666FFFF6666FFFF6666 /* Build configuration list for PBXProject "IPAEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A1A1A1A1A1A1A1A1A1A1A1A /* Debug */,
+				2B2B2B2B2B2B2B2B2B2B2B2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBBB2222BBBB2222BBBB2222 /* Build configuration list for PBXNativeTarget "IPAEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C3C3C3C3C3C3C3C3C3C3C3C /* Debug */,
+				4D4D4D4D4D4D4D4D4D4D4D4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EEEE5555EEEE5555EEEE5555 /* Project object */;
+}
