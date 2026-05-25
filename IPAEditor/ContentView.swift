@@ -44,7 +44,7 @@ struct ContentView: View {
         }
         .fileImporter(
             isPresented: $isImporterPresented,
-            allowedContentTypes: [UTType.archive, UTType.item],
+            allowedContentTypes: [UTType(filenameExtension: "ipa") ?? .data],
             allowsMultipleSelection: false
         ) { result in
             do {
